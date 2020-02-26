@@ -9,6 +9,7 @@ public class Exercicio02 {
 
         List<Funcionario> funcionarios = new ArrayList<>();
 
+
         funcionarios.add(new AuxiliarEscritorio("Nery Pumpido", 2500.0, 500.0));
         funcionarios.add(new AuxiliarEscritorio("Sergio Batista", 2300.0, 500.0));
         funcionarios.add(new AuxiliarEscritorio("José Brown", 2000.0, 500.0));
@@ -28,6 +29,10 @@ public class Exercicio02 {
 
     private static double calculaOrcamentoAnual(List<Funcionario> funcionarios) {
         // TODO: implemente o código deste método
+        for (Funcionario valor :funcionarios){
+            System.out.println(valor);
+        }
+
         return 0.0;
     }
 }

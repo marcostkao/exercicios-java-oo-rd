@@ -20,6 +20,15 @@ public class NumeroPrimo {
      */
     public Set<Integer> getNumerosPrimosDe(Set<Integer> numeros) {
         // TODO: implemente o código deste método
+        for (int = 0; i < numeros.size(); i++){
+            numeros = numeros ;
+        }
+
+
+
+
+
+
         return null;
     }
 

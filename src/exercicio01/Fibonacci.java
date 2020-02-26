@@ -21,7 +21,14 @@ public class Fibonacci {
      */
     public int[] getSequenciaFibonacciDe(int tamanho) {
         // TODO: implemente o código deste método
-        return null;
+        if (tamanho < 2) {
+            return tamanho;
+        }
+        else {
+            return getSequenciaFibonacciDe(-1) + getSequenciaFibonacciDe(-2);
+        }
     }
 
-}
+    }
+
+
